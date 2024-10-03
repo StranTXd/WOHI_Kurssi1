@@ -1,0 +1,243 @@
+
+
+@media (max-width: 768px) {
+    html {
+        flex-direction: column;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+
+.index_screen_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.index_screen_button {
+    display: flex;
+    justify-content: center;
+}
+
+.all_the_info {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.main_pictures {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.homepage_body {
+    background-color: white;
+}
+
+.main_pictures img {
+    display: block;
+    margin: 20px auto;
+    margin-bottom: 20px;
+}
+
+
+.btn-group-vertical  {
+    display: block;
+    width: 10%;
+}
+
+
+#otherPagesButton {
+    background-color: #dfdfdf;
+    height: 50px;    
+}
+
+.divider {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.navbar-custom .navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+.navbar-custom .navbar-nav .nav-item {
+    display: inline-block;
+}
+
+.contact_class_index_page {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+}
+
+
+.info_span {
+    font-weight: bold; 
+    border: solid aqua;
+    width: 150px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.info_span:hover {
+    transform: translateY(-10px); 
+}
+
+
+
+
+/* CV Page Styles*/
+
+.cv_skill_main_container{
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+
+}
+
+/* Left Side */
+
+.cv_container_education_work {
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 30%;
+}
+.cv_container_education_work b2 {
+    font-family: Garamond, serif;
+}
+
+
+
+/* Right Side */
+
+.cv_container_tech_project {
+    display: flex; 
+    flex-direction: column;
+    width: 30%;
+}
+
+.cv_tech_div {
+    transition: transform 0.3s ease; 
+}
+
+
+/* Bottom Side */
+.cv_language_table {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    width: 40%;
+}
+.text_cv_languages {
+    text-align: center;
+}
+
+/* All other about CV page */
+.cv_info_text {
+    transition: transform 0.3s ease, color 0.5s; 
+}
+.cv_info_text:hover {
+    transform: translateY(-10px); 
+    color:rgb(31, 189, 189);
+}
+
+/* Contact Page Styles */
+
+.contact_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.checkbox-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input {
+    padding:8px;
+    display:block;
+    border:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width:100%
+}
+
+.contact-textarea-message {
+    padding:8px;
+    display:block;
+    border:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width:100%
+}
+
+/* Hobbies Page Styles */
+
+.hobbies_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.hobbies_videos_div {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.hobbies_ul {
+    list-style-type: none;
+}
+
+
+
+ /* Others */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadein_animation {
+    animation: fadeIn 1.5s ease;
+
+}
+
+.fadein_animation2 {
+    animation: fadeIn 2s ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
